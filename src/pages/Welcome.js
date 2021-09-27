@@ -106,9 +106,6 @@ export default function Welcome({ handleAddTaskInList, tasklist, handleSeenTaskL
                 }}
                     to='/showtask'>Show Seen Task</Button>
             </Stack>
-            <Typography variant={'h6'} >
-                {!!generated && generated}
-            </Typography>
         </Container>
     )
 }
