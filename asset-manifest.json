@@ -1,20 +1,20 @@
 {
   "files": {
     "main.css": "/taskDiary/static/css/main.a89509d2.chunk.css",
-    "main.js": "/taskDiary/static/js/main.1429c5ce.chunk.js",
-    "main.js.map": "/taskDiary/static/js/main.1429c5ce.chunk.js.map",
+    "main.js": "/taskDiary/static/js/main.903f85f6.chunk.js",
+    "main.js.map": "/taskDiary/static/js/main.903f85f6.chunk.js.map",
     "runtime-main.js": "/taskDiary/static/js/runtime-main.d49ec75a.js",
     "runtime-main.js.map": "/taskDiary/static/js/runtime-main.d49ec75a.js.map",
-    "static/js/2.e01ff1c9.chunk.js": "/taskDiary/static/js/2.e01ff1c9.chunk.js",
-    "static/js/2.e01ff1c9.chunk.js.map": "/taskDiary/static/js/2.e01ff1c9.chunk.js.map",
+    "static/js/2.6a9fde8b.chunk.js": "/taskDiary/static/js/2.6a9fde8b.chunk.js",
+    "static/js/2.6a9fde8b.chunk.js.map": "/taskDiary/static/js/2.6a9fde8b.chunk.js.map",
     "index.html": "/taskDiary/index.html",
     "static/css/main.a89509d2.chunk.css.map": "/taskDiary/static/css/main.a89509d2.chunk.css.map",
-    "static/js/2.e01ff1c9.chunk.js.LICENSE.txt": "/taskDiary/static/js/2.e01ff1c9.chunk.js.LICENSE.txt"
+    "static/js/2.6a9fde8b.chunk.js.LICENSE.txt": "/taskDiary/static/js/2.6a9fde8b.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
     "static/js/runtime-main.d49ec75a.js",
-    "static/js/2.e01ff1c9.chunk.js",
+    "static/js/2.6a9fde8b.chunk.js",
     "static/css/main.a89509d2.chunk.css",
-    "static/js/main.1429c5ce.chunk.js"
+    "static/js/main.903f85f6.chunk.js"
   ]
 }
