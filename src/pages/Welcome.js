@@ -1,4 +1,4 @@
-import React, { useState } from 'react'
+import React, { useEffect, useState } from 'react'
 import Container from '@mui/material/Container';
 import { Button, Stack, Typography, TextField } from '@mui/material';
 import { Link } from 'react-router-dom';
@@ -14,6 +14,11 @@ export default function Welcome({ handleAddTaskInList, tasklist, handleSeenTaskL
     const [task, setTask] = useState('');
     const [generated, setGenerated] = useState('');
     console.log("tasklist", tasklist, tasklist.length)
+
+    useEffect(() => {
+        console.log('i am change', generated);
+    }, [generated])
+
     const handleTaskChange = (e) => {
         setTask(e.target.value);
     }
@@ -101,6 +106,9 @@ export default function Welcome({ handleAddTaskInList, tasklist, handleSeenTaskL
                 }}
                     to='/showtask'>Show Seen Task</Button>
             </Stack>
+            <Typography variant={'h6'} >
+                {!!generated && generated}
+            </Typography>
         </Container>
     )
 }

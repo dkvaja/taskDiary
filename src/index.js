@@ -4,10 +4,10 @@ import './index.css';
 import App from './App';
 import { theme } from './style/theme'
 import { ThemeProvider } from '@mui/material/styles';
-import { BrowserRouter as Router } from "react-router-dom";
+import { HashRouter as Router } from "react-router-dom";
 
 ReactDOM.render(
-  <Router>
+  <Router basename='/' >
     <ThemeProvider theme={theme}>
       <App />
     </ThemeProvider>
